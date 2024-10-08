@@ -79,13 +79,14 @@
         </Label>
         <Switch
             x:Name="EntryAgree"
-            OnColor="#ECC0B0"
-            ThumbColor="#9C3940"
+            IsToggled="True"
+            OnColor="#9C3940"
+            ThumbColor="White"
             Toggled="EntryAgree_Toggled">
         </Switch>
         <Label
             x:Name="EntrySwitchValue"
-            Text="Agree : No"
+            Text="Agree : Yes"
             TextColor="#9C3940">
         </Label>
         
